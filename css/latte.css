@@ -3,6 +3,7 @@
 :root {
   --primary-white: #ffffff;
   --secondary-navy: #063270;
+  --font-family: "Poppins";
 }
 
 /* BASIC FORMATTING */
@@ -20,7 +21,7 @@ img {
 }
 
 body {
-  font-family: Poppins;
+  font-family: var(--font-family);
   font-size: 1.125rem;
   color: black;
   background-color: var(--secondary-navy);
